@@ -255,6 +255,7 @@ const SideBar = () => {
                                     <nav className="sb-sidenav-menu-nested nav">
                                         <Link to={'/admin/BlockchainLogDB'} className="nav-link">Trên cơ sở dữ liệu</Link>
                                         <Link to={'/admin/BlockchainLogLC'} className="nav-link">Trên blockchain</Link>
+                                        <Link to={'/admin/BlockchainLogTestNet'} className="nav-link">Trên testnet</Link>
                                     </nav>
                                 </div>
 

@@ -49,6 +49,7 @@ import Profit from './Statistic/Profit';
 import StockProduct from './Statistic/StockProduct';
 import ManageBlockchainLog from './BlockchainLog/BlockchainLog'
 import ManageBlockchainLogLC from './BlockchainLog/BlockchainLogLC'
+import ManageBlockchainLogTestNet from './BlockchainLog/BlockchainLogTestNet'
 
 function HomePageAdmin(props) {
     return (
@@ -214,6 +215,9 @@ function HomePageAdmin(props) {
                                 </Route>
                                 <Route exact path="/admin/BlockchainLogLC">
                                     <ManageBlockchainLogLC />
+                                </Route>
+                                <Route exact path="/admin/BlockchainLogTestNet">
+                                    <ManageBlockchainLogTestNet />
                                 </Route>
                             </main>
                             <Footer />
